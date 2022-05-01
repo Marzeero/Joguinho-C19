@@ -169,8 +169,7 @@ function setup() {
 
     tobigroup = createGroup();
 
-    narutoreal.debug = true;
-    narutoreal.setCollider("circle", 0,0,20)
+    narutoreal.setCollider("circle", 0,0,15)
 
 }
 
@@ -205,6 +204,7 @@ function draw() {
 
 
         if(mousePressedOver(bstart)){
+            score = 0;
             gamestate = play;
         
         }
